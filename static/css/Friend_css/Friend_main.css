@@ -57,6 +57,13 @@ a {
     padding: 2px 5px;
 }
 
+.chat-pop-mkchat>.chat-back-tab>a>span{
+    font-size: 30px;
+}
+.chat-pop-mkfriend>.chat-back-tab>a>span{
+    font-size: 30px;
+}
+
 .chat-search-tab {
     margin-top: 50px;
     display: flex;
@@ -65,18 +72,22 @@ a {
     background-color: #F3EDF7;
     padding: 5px;
     border-radius: 5px;
+    width: 83%;
+    margin: 0 auto;
 }
 
 .chat-search-tab>input {
-    text-align: center;
-    width: 65%;
+    margin-right: -20px;
+    justify-content: center;
+    text-align: left;
+    width: 80%;
     background-color: #F3EDF7;
     border: none;
-    outline: none;
+    outline: none; 
 }
 
-.chat-search-tab>a {
-    color: black;
+.chat-search-tab>a>span{
+    margin-left: -50x;
 }
 
 .chat-tab {
